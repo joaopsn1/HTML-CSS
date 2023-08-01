@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'rigamesh';
+    src: url('fontes/rigamesh.otf') format('opentype'), url('fontes/rigamesh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2AB300, #2F661F) ;
+    height: auto;
+    width: auto;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 15px #00000079;
+
+    padding: 1px;
+
+    margin: -10px -10px -15px -10px;
+    
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.651);
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 1em;
+}
+
+nav > a:hover {
+    text-decoration: underline
+}
+
+main {
+    background-color: blanchedalmond;
+    width: auto;
+    height: auto;
+    margin: 15px -10px -10px -10px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.575) inset;
+}
+
+section {
+    background-color: white;
+    margin: -3px 100px 10px 100px;
+    border: 5px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px #00000079;
+}
+
+aside > h1 {
+    color: rgb(14, 87, 14);
+    text-align: justify;
+    font-family: 'rigamesh', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+
+    margin: 10px;
+}
+
+aside > h2 {
+    color: rgb(14, 87, 14);
+    text-align: justify;
+    text-indent: 5px;
+    font-family: 'rigamesh';
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3px;
+
+    background-image: linear-gradient(to right, #aeebb2, white);
+
+    margin: 10px 200px 10px 10px;
+}
+
+aside > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 20px;
+
+    margin: 10px;
+}
+
+.basico {
+    color: green;
+    font-weight: bold;
+}
+
+.alinhamento {
+    text-align: center;
+    
+}
+
+.alinhamento2 {
+    background-color: rgb(24, 48, 24);
+    text-align: center;
+    padding: 15px;
+    margin: -5px;
+   
+}
+
+article {
+    background-color: rgba(33, 221, 33, 0.253);
+    margin: 15px 15px 50px 15px;
+    border-radius: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+article > h3 {
+    background-color: rgb(84, 156, 25);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+article > p {
+    text-indent: 20px;
+    margin: 10px;
+}
+
+div#fim {
+    text-indent: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+footer {
+    background-color: rgb(24, 48, 24);
+    margin: 8px -8px -8px -8px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.rodape {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.473);
+}
