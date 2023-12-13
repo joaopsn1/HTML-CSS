@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsivo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+                Color > image > position > repeat > [size] > attachment 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,8 +35,17 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae aperiam maiores laborum quam, beatae maxime officia qui blanditiis iure sit rem neque, exercitationem labore architecto cumque voluptate nisi magni? 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, quia? Mollitia quos error corporis dolorum praesentium odio id, maiores voluptatem omnis exercitationem voluptatum fugiat qui dolor ipsum cumque? Labore, asperiores.
+        </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae aperiam maiores laborum quam, beatae maxime officia qui blanditiis iure sit rem neque, exercitationem labore architecto cumque voluptate nisi magni?
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, accusantium ipsa totam, doloribus, numquam suscipit tempore est veritatis odio similique nobis laudantium voluptatem facere natus minima excepturi dolores asperiores enim?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex saepe sit ab facilis ipsa minus qui aperiam nesciunt labore molestiae. Quos distinctio fugit dignissimos cumque atque eveniet nihil, reprehenderit aspernatur!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae aperiam maiores laborum quam, beatae maxime officia qui blanditiis iure sit rem neque, exercitationem labore architecto cumque voluptate nisi magni?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex saepe sit ab facilis ipsa minus qui aperiam nesciunt labore molestiae. Quos distinctio fugit dignissimos cumque atque eveniet nihil, reprehenderit aspernatur!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae aperiam maiores laborum quam, beatae maxime officia qui blanditiis iure sit rem neque, exercitationem labore architecto cumque voluptate nisi magni?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex saepe sit ab facilis ipsa minus qui aperiam nesciunt labore molestiae. Quos distinctio fugit dignissimos cumque atque eveniet nihil, reprehenderit aspernatur!
         </p>
     </main>
 </body>
