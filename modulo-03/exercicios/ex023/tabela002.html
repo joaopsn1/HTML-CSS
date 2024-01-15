@@ -33,6 +33,13 @@
     .num {
         text-align: right;
     }
+
+    caption {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 10px;
+        background-color: rgba(128, 128, 128, 0.349);
+        }
     
 </style>
 <body>
@@ -40,6 +47,7 @@
     <!--
         ANATOMIA PARA TABEAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -48,11 +56,14 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -194,7 +205,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <th></th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tfoot>
