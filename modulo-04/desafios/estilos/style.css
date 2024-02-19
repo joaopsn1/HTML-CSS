@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* Tela para PC */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #949494;
+}
+
+main h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+menu {
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #808080;
+    padding: 10px;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+aside {
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    text-indent: 15px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
